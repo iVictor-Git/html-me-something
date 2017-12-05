@@ -1,0 +1,131 @@
+/* Begin my CSS */
+/* least specific - tag begins */
+html, header, body{
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    min-width: 45%
+}
+
+ul {
+    margin: 0;
+}
+
+nav ul{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: .15em .5em;
+    font-size: 1.2em;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+/* tags end */
+
+/* classes begin */
+p.section, img.section, div.section, h3.section{
+    margin-bottom: .75em;
+}
+
+.container {
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.clear-bar {
+    clear: both;
+}
+
+img.smallify.section {
+    margin-bottom: 2em;
+}
+.black-strip {
+    background-color: black;
+    color: black;
+    width: 100%;
+}
+
+.initials-logo {
+    border: 3px solid black;
+    border-radius: 75%;
+    text-align: center;
+    max-width: 1.5em;
+    margin: 0 auto;
+    font-size: 5em;
+    background-color: white;
+}
+
+.smallify {
+    width: 40%;
+    height: 50%;
+}
+
+div.container nav div#nav-flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 1.5em;
+    justify-content: space-between;
+}
+
+nav div.nav-flex-items {
+    width: 30%;
+    margin-bottom: .75em;
+}
+
+.main-flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-flex-items {
+    align-self: flex-start;
+    width: 18%; 
+}
+/* classes end */
+
+/* most specific - ids begin + other specificity*/
+#basic-information-left, #basic-information-right{
+    width: 50%;
+    display: inline-block;
+}
+
+div#basic-information-left {
+    float: left;
+    text-align: left;
+}
+
+div#basic-information-right {
+    float: right;
+}
+
+div p#basic-information-right {
+    text-align: right;
+}
+
+div#copyright {
+    font-size: 0.65em;
+    text-align: left;
+    width: 80%;
+}
+
+main div#basic-information div p{
+    margin-bottom: .75em;
+}
+/* ids end */
+/* End my CSS */
