@@ -57,6 +57,7 @@ img.smallify.section {
     background-color: black;
     color: black;
     width: 100%;
+    padding: 1em 0;
 }
 
 .initials-logo {
@@ -84,6 +85,7 @@ div.container nav div#nav-flex-container {
 nav div.nav-flex-items {
     width: 30%;
     margin-bottom: .75em;
+    padding-top: .25em;
 }
 
 .main-flex-container {
